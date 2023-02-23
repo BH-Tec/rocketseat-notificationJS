@@ -3,8 +3,8 @@ import { Timer } from './Timer.js'
 import { Emitter } from './Emitter.js'
 
 const notify = Notifyer.notify({
-  title: "Hora do Post",
-  body: "Crie algum conteúdo para ajudar a comunidade"
+  title: "Beba água",
+  body: "Está na hora de beber água"
 })
 
 const App = {
