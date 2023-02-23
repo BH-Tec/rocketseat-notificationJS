@@ -2,9 +2,10 @@
   "name": "rocketseat-notificationjs",
   "version": "1.0.0",
   "description": "Notification Browser",
-  "main": "main.js",
+  "main": "electron/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/agua.icns --out=packages"
   },
   "repository": {
     "type": "git",
